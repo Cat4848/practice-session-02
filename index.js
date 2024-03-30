@@ -12,4 +12,5 @@ function submitForm(e) {
   const a = 4;
   const b = 6;
   const c = 7;
+  const d = 8;
 }
