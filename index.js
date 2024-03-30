@@ -10,4 +10,5 @@ function submitForm(e) {
   const form = new FormData(e.target);
   console.log("form", form);
   const a = 4;
+  const b = 6;
 }
