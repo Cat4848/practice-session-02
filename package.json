@@ -1,0 +1,11 @@
+{
+  "name": "bundeling-practice-session",
+  "version": "1.0.0",
+  "description": "bundeling-practice-session",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Catalin Pirtiu - catalinrol@gmail.com",
+  "license": "ISC"
+}
