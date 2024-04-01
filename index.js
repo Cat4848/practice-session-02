@@ -3,15 +3,16 @@ window.onload = () => {
 };
 
 function attachFormEventHandler() {
-  const button = document.querySelector("#submit-button");
-  button.addEventListener("click", submitForm);
+  const form = document.querySelector("#form");
+  form.addEventListener("submit", submitForm);
 }
 function submitForm(e) {
+  e.preventDefault();
+
   const form = new FormData(e.target);
-  console.log("form", form);
-  const a = 4;
-  const b = 6;
-  const c = 7;
-  const d = 8;
-  const e = 1;
+  const formData = form.entries();
+  let users = {};
+  for (const [key, value] of formData) {
+    users[key] = value;
+  }
 }
