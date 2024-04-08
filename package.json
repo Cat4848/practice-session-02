@@ -2,10 +2,17 @@
   "name": "bundeling-practice-session",
   "version": "1.0.0",
   "description": "bundeling-practice-session",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "test"
   },
   "author": "Catalin Pirtiu - catalinrol@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "typescript": "^5.4.3"
+  }
 }
