@@ -1,7 +1,5 @@
 import { sum } from "./utils";
 
-console.log("check");
-
 window.onload = () => {
   attachFormEventHandler();
 };
@@ -22,6 +20,4 @@ function submitForm(e: Event) {
   const a = 3;
   const b = 3;
   const result = sum(a, b);
-
-  console.log("result", result);
 }
